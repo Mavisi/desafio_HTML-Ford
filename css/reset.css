@@ -35,6 +35,9 @@ main{
 	display: flex;
 	justify-content:center ;
 	align-items: center;
+	height: 100vh;
+	width: 100vh;
+	margin: 0px;
 
 }
 
@@ -48,7 +51,7 @@ footer{
 
 	display: flex;
 	background-color: #1351d8;
-	
+
 }
 
 .elementos__rodape{
@@ -67,8 +70,8 @@ footer{
 
 	display: flex;
 	justify-content: right;
-	border:solid 2px red;
-	height: 5vh;
+	/* border:solid 2px red; */
+	height: 7vh;
 	width: 10vw;
 
 }
