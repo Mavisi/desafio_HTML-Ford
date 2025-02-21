@@ -5,48 +5,79 @@
 }
 
 
-body{
+header{
 
-	background-color:white ;
+	display: flex;
 
 }
-
 
 .elementos__cabecalho{
 
 	display: flex;
-	
 
+}
+
+.elementos__cabecalho img{
+
+	width: 10vw;
+	height: 9vh;
 
 
 }
 
 main{
-	
-}
-
-
-.elementos__rodape{
-
-	background-color: #1b357e;
 	display: flex;
-	justify-content:left;
+	flex-direction: column;
+}
+
+.elementos_meio img{
+
+	display: flex;
+	justify-content:center ;
 	align-items: center;
-	position: absolute;
-	width: 100%;
-
 
 }
 
-.palavra_redes{
-
-	color: aliceblue;
-
-}
-
-.apresentacao__botao{
+.texto_embaixo_da_ranger{
 
 	text-align: center;
 
+}
+
+footer{
+
+	display: flex;
+	background-color: #1351d8;
+	
+}
+
+.elementos__rodape{
+
+	
+	display: flex;
+	justify-content:left;
+	align-items: center;
+	/* position: absolute; */
+	width: 100%;
+	color: azure;  /* aqui muda a cor que estiver no corpo da tag selecionada  */
+
+}
+
+.imagem_logo_rodape{
+
+	display: flex;
+	justify-content: right;
+	border:solid 2px red;
+	height: 5vh;
+	width: 10vw;
+
+}
+
+.elementos__rodape p{
+	font-size: 15px;
+}
+
+.elementos__rodape a{
+	
 
 }
