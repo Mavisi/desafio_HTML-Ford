@@ -1,0 +1,52 @@
+*{
+
+	margin: 0px;
+	padding: 0px;
+}
+
+
+body{
+
+	background-color:white ;
+
+}
+
+
+.elementos__cabecalho{
+
+	display: flex;
+	
+
+
+
+}
+
+main{
+	
+}
+
+
+.elementos__rodape{
+
+	background-color: #1b357e;
+	display: flex;
+	justify-content:left;
+	align-items: center;
+	position: absolute;
+	width: 100%;
+
+
+}
+
+.palavra_redes{
+
+	color: aliceblue;
+
+}
+
+.apresentacao__botao{
+
+	text-align: center;
+
+
+}
