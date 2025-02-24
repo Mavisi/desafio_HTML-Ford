@@ -8,7 +8,7 @@
 header{
 
 	display: flex;
-
+	height: 15vh;
 }
 
 .elementos__cabecalho{
@@ -28,30 +28,43 @@ header{
 main{
 	display: flex;
 	flex-direction: column;
+	height: 80vh; /* para ocupar toda a altura da pagina */
+	border:solid 5px #1351d8 ; /*  para criar uma borda */
+
+
+}
+
+.elementos_meio{
+	
+	display: flex; /* ativa o flex box*/
+	flex-direction: column; /*  para fazer a orientação da dos elementos */
+	justify-content: center; /* centraliza horizontalmente */
+	align-items: center; /* centraliza verticalemnte*/
+	border:solid 5px red ; /*  para criar uma borda */
+	margin-top: 40px;
 }
 
 .elementos_meio img{
 
-	display: flex;
-	justify-content:center ;
-	align-items: center;
-	height: 100vh;
-	width: 100vh;
-	margin: 0px;
+	width: 80%; /* largura da imagem */
+	height: auto; /* altura da imagem */
 
 }
 
 .texto_embaixo_da_ranger{
 
 	text-align: center;
+	font-size: 24px;
 
 }
 
 footer{
 
 	display: flex;
+	flex-direction: row;
 	background-color: #1351d8;
-
+    border: solid 5px #ff7f50;
+	height: 9vh;
 }
 
 .elementos__rodape{
@@ -63,24 +76,21 @@ footer{
 	/* position: absolute; */
 	width: 100%;
 	color: azure;  /* aqui muda a cor que estiver no corpo da tag selecionada  */
+	border:solid 5px #8b008b;
 
 }
 
-.imagem_logo_rodape{
+.imagem_logo_rodape {
 
 	display: flex;
-	justify-content: right;
-	/* border:solid 2px red; */
-	height: 7vh;
+	margin-top: 2px;
 	width: 10vw;
+	border: solid #FF00FF; 
 
 }
 
 .elementos__rodape p{
-	font-size: 15px;
+	font-size: 20px;
+	border:solid 5px #00CED1;
 }
 
-.elementos__rodape a{
-	
-
-}
