@@ -2,6 +2,7 @@
 
 	margin: 0px;
 	padding: 0px;
+	box-sizing: border-box;
 }
 
 
@@ -74,15 +75,26 @@ footer{
 	justify-content:left;
 	align-items: center;
 	/* position: absolute; */
-	width: 100%;
+	width: 100vw;
 	color: azure;  /* aqui muda a cor que estiver no corpo da tag selecionada  */
 	border:solid 5px #8b008b;
 
 }
 
+.direitos_autorais{
+	box-sizing: border-box;
+	text-align: center;
+	color: aliceblue;
+	width: 35vw;
+
+
+}
+
+
 .imagem_logo_rodape {
 
 	display: flex;
+	flex-direction:;
 	margin-top: 2px;
 	width: 10vw;
 	border: solid #FF00FF; 
@@ -93,4 +105,5 @@ footer{
 	font-size: 20px;
 	border:solid 5px #00CED1;
 }
+
 
