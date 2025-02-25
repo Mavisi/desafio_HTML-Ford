@@ -1,5 +1,4 @@
 *{
-
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
@@ -74,30 +73,52 @@ footer{
 	justify-content:left;
 	align-items: center;
 	/* position: absolute; */
-	width: 100vw;
+	width: 20vw;
 	color: azure;  /* aqui muda a cor que estiver no corpo da tag selecionada  */
-	border:solid 5px #8b008b;
+	border:solid 5px #00FF00;
+	
 
 }
 
+.icone-social {
+	width: 50px;
+	height: auto;
+	transition: transform 0.2s ease-in-out;
+}
+
+.icone-social:hover{
+	transform: scale(1.1); /* efeito de zoom ao passar o mouse por cima */
+}
+
 .direitos_autorais{
-	box-sizing: border-box;
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align:center;
 	color: aliceblue;
-	width: 35vw;
-
-
+	width: 100vw;
+	border: solid #FF00FF;
+	font-size: 25px;
 }
 
 
 .imagem_logo_rodape {
 
 	display: flex;
-	flex-direction:;
 	margin-top: 2px;
 	width: 10vw;
 	border: solid #FF00FF; 
 
+}
+
+.imagem_logo_rodape img:hover{
+
+	transform: scale(1.1) rotate(5deg);
+    filter: brightness(1.2);
+    transition: all 0.3s ease-in-out;
+
+	/* transform: scale(1.1); */
+	/* transition: transform 0.3s ease-in-out; */
 }
 
 .elementos__rodape p{
