@@ -36,9 +36,13 @@ border: solid 5px #32de84;
 	font-weight: 600;
 	color: #1351d8;
 	text-decoration: none;
-	
+
 }
 
+.elementos_do_menu:hover{
+	color: #32de84;
+	
+}
 
 
 main{

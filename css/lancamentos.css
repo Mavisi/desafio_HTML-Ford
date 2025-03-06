@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    height: 10vh;
+    border: solid green 5px;
+
+}
+
+.imagem_logo{
+    width: 10vw;
+    height: 9vh;
+   
+}
+
+.menu_cabecalho{
+    display: flex; 
+    list-style: none;
+    gap: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.meio{
+    display: flex;
+    flex-direction: column;
+    
+
+}
