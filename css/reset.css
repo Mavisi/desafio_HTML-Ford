@@ -5,31 +5,47 @@
 }
 
 
-header{
-
-	display: flex;
-	height: 15vh;
-}
-
 .elementos__cabecalho{
-
-	display: flex;
+display: flex;
+height: 10vh;
+border: solid 5px #32de84;
 
 }
 
 .elementos__cabecalho img{
-
+	justify-items: left;
 	width: 10vw;
 	height: 9vh;
 
 }
+
+.menu{
+
+	list-style: none;
+    display: flex;
+	gap: 20px;
+	padding: 1.5% 0;
+    position: absolute;
+    left: 50%; /* deslocou 50% em relação a pagina */
+    transform: translateX(-50%);
+}
+
+.elementos_do_menu{
+	font-family: 'Montesarat', sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	color: #1351d8;
+	text-decoration: none;
+	
+}
+
+
 
 main{
 	display: flex;
 	flex-direction: column;
 	height: 80vh; /* para ocupar toda a altura da pagina */
 	border:solid 5px #1351d8 ; /*  para criar uma borda */
-
 
 }
 
@@ -62,20 +78,21 @@ footer{
 	display: flex;
 	flex-direction: row;
 	background-color: #1351d8;
-    border: solid 5px #ff7f50;
+    /* border: solid 5px #ff7f50;  */
 	height: 9vh;
+	margin-top: 10px; 
+	border: solid 5px red; 
+	
 }
 
 .elementos__rodape{
 
-	
 	display: flex;
 	justify-content:left;
 	align-items: center;
-	/* position: absolute; */
-	width: 20vw;
+	width: 21vw;
 	color: azure;  /* aqui muda a cor que estiver no corpo da tag selecionada  */
-	border:solid 5px #00FF00;
+	/* border:solid 5px #00FF00; */
 	
 
 }
@@ -97,7 +114,7 @@ footer{
 	text-align:center;
 	color: aliceblue;
 	width: 100vw;
-	border: solid #FF00FF;
+	/* border: solid #FF00FF; */
 	font-size: 25px;
 }
 
@@ -107,19 +124,10 @@ footer{
 	display: flex;
 	margin-top: 2px;
 	width: 10vw;
-	border: solid #FF00FF; 
+	/* border: solid #FF00FF;  */
 
 }
 
-.imagem_logo_rodape img:hover{
-
-	transform: scale(1.1) rotate(5deg);
-    filter: brightness(1.2);
-    transition: all 0.3s ease-in-out;
-
-	/* transform: scale(1.1); */
-	/* transition: transform 0.3s ease-in-out; */
-}
 
 .elementos__rodape p{
 	font-size: 20px;
