@@ -31,6 +31,58 @@
 .meio{
     display: flex;
     flex-direction: column;
-    
+    justify-content: center;
+    align-items: center;
+    border: solid 5px orange  ;
+}
 
+
+.carros_meio{
+    display: flex;
+    gap:  300px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    border: solid 5px red;
+    padding-bottom: 10px;
+    
+}
+
+.carros{
+    /* border: solid 5px blue; */
+}
+
+.carros_meio figure{
+    text-align: center;
+}
+
+.carros_meio figcaption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+}
+
+.carros_meio input[type="checkbox"]{
+    margin-right: 10px;
+    
+}
+
+.info-carros{
+
+    width: 20px;
+    height: auto;
+    margin-left: 10px;
+}
+
+
+.botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid 5px blue; */
+    margin-top: 150px;
+    margin-bottom: 50px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
 }
