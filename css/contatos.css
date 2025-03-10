@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.conteudo{
+    flex:1;
+}
+.cabecalho_contatos{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 10vh;
+    border: solid 5px black;
+}
+
+.menu_contatos{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: -10px;    
+}
+
+.contatos{
+    text-decoration: none;
+}
+
+
+.meio_conntatos{
+    height: 100%;
+}
+
+
+footer{
+    background-color: black;
+    /* padding: 10px; */
+    height: 9vh;
+}
+
+.redes_sociais{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border: solid 5px blue;
+
+}
+
+.redes_sociais p{
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.direitos_rodape{
+   text-align: center;
+   color: white;
+   position: relative ;
+   top: -5vh ;
+   border: solid 5px red;
+}
+
+.logo_rodape{
+    display: flex;
+    justify-content: right;
+    position: relative;
+    top: -10vh;
+    border: solid 5px green;
+}

@@ -97,8 +97,6 @@ footer{
 	width: 21vw;
 	color: azure;  /* aqui muda a cor que estiver no corpo da tag selecionada  */
 	/* border:solid 5px #00FF00; */
-	
-
 }
 
 .icone-social {
@@ -131,7 +129,6 @@ footer{
 	/* border: solid #FF00FF;  */
 
 }
-
 
 .elementos__rodape p{
 	font-size: 20px;

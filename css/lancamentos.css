@@ -32,6 +32,11 @@ html,body{
     transform: translateX(-50%);
 }
 
+.menu{
+    text-decoration: none;
+    
+}
+
 .meio{
     display: flex;
     flex-direction: column;
