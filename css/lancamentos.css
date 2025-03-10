@@ -3,10 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 html,body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+}
+.conteudo{
+    flex: 1;
 }
 .cabecalho{
     display: flex;
@@ -104,36 +108,30 @@ html,body{
     background-color: #1351D8;
 }
 
-.lancamentos_rodape{
+.rodape{
     display: flex;
-    justify-content: left;
-    align-items: center;
-    gap: 5px;
     background-color: #1b357e;
-    /* margin-top: 6%; */
-    padding: 0 20px;
-    border: solid 2px red;
+    justify-content: space-between;
+    align-items: center;
+    height: 6vh;
 }
 
-.lancamentos_rodape p{
+.menu_rodape{
+    list-style: none;
+    display: flex;
+    align-items: center;
     color: white;
-    font-size: 20px;
-    margin-left: 10px;
-   
+    gap: 5px;
+
 }
+
 
 .lancamentos_direitos{
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: -35px;
     color: white;
+    align-items: center;
+    gap: 20px;
+    border: solid 5px red;
 }
 
-.lancamentos_logo{
-    display: flex;
-    justify-content: right;
-    margin-top: -31px;;
-    height: 5vh;
-    width: auto;
-}

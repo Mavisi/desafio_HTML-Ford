@@ -35,43 +35,103 @@ html,body{
 }
 
 
-.meio_conntatos{
-    height: 100%;
-}
-
-
-footer{
-    background-color: black;
-    /* padding: 10px; */
-    height: 9vh;
-}
-
-.redes_sociais{
+.meio_contatos{
     display: flex;
-    justify-content: left;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    border: solid 5px blue;
-
+    height: 84vh;
+    border: solid 5px yellow;
 }
 
-.redes_sociais p{
-    color: white;
+.lado_carro{
+    border: solid 5px red;
+    width: 35vh;
+}
+
+.lado_formulario{
+    border: solid 5px blue; 
+}
+.meio_contatos p{
     font-size: 20px;
-    margin-right: 10px;
 }
 
-.direitos_rodape{
-   text-align: center;
-   color: white;
-   position: relative ;
-   top: -5vh ;
-   border: solid 5px red;
-}
-
-.logo_rodape{
+form{
+    width: 400px;
     display: flex;
-    justify-content: right;
-    position: relative;
-    top: -10vh;
-    border: solid 5px green;
+    flex-direction: column;
+    gap: 10px;
+    /* border: solid 5px blue; */
+}
+
+input{
+    width: 100%;
+    max-width: 400px;
+    height: 50px; /* Define a altura do campo */
+    padding: 10px; /* Espaçamento interno para melhor visualização */
+    font-size: 16px; /* Aumenta o tamanho do texto dentro do input */
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Borda arredondada */
+}
+
+#tipo_de_contato{
+    width: 100%;
+    max-width: 400px;
+    height: 50px; /* Define a altura do campo */
+    padding: 10px; /* Espaçamento interno para melhor visualização */
+    font-size: 16px; /* Aumenta o tamanho do texto dentro do input */
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Borda arredondada */
+}
+
+#mensagem{
+    width: 100%;
+    max-width: 400px;
+    height: 100px; /* Define a altura do campo */
+    padding: 10px; /* Espaçamento interno para melhor visualização */
+    font-size: 16px; /* Aumenta o tamanho do texto dentro do input */
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Borda arredondada */
+}
+
+button{
+    width: 100%;
+    max-width: 400px;
+    height: 50px; /* Define a altura do campo */
+    padding: 10px; /* Espaçamento interno para melhor visualização */
+    font-size: 16px; /* Aumenta o tamanho do texto dentro do input */
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Borda arredondada */
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1b357e;
+    /* padding: 10px; */
+    height: 6vh;
+    color: white;
+}
+
+.menu_rodape{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* border: solid 5px red; */
+
+}
+
+.rodape p{
+    color: white;
+    text-align: center;
+   border: solid 5px green;
+}
+
+footer img{
+    padding-right: 30px;
 }

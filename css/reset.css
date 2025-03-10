@@ -4,7 +4,14 @@
 	box-sizing: border-box;
 }
 
-
+html,body{
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+.conteudo{
+	flex: 1;
+}
 .elementos__cabecalho{
 display: flex;
 height: 10vh;
@@ -48,7 +55,9 @@ border: solid 5px #32de84;
 main{
 	display: flex;
 	flex-direction: column;
-	height: 80vh; /* para ocupar toda a altura da pagina */
+	justify-content: center;	
+	align-items: center;
+	height: 84vh; /* para ocupar toda a altura da pagina */
 	border:solid 5px #1351d8 ; /*  para criar uma borda */
 
 }
@@ -60,14 +69,14 @@ main{
 	justify-content: center; /* centraliza horizontalmente */
 	align-items: center; /* centraliza verticalemnte*/
 	border:solid 5px red ; /*  para criar uma borda */
-	margin-top: 40px;
+	padding: 10px 0 0 0;
+	width: 60vw;
 }
 
 .elementos_meio img{
-
-	width: 80%; /* largura da imagem */
+	
+	width: 60vw; /* largura da imagem */
 	height: auto; /* altura da imagem */
-
 }
 
 .texto_embaixo_da_ranger{
@@ -81,10 +90,10 @@ footer{
 
 	display: flex;
 	flex-direction: row;
-	background-color: #1351d8;
+	background-color: #1b357e;
     /* border: solid 5px #ff7f50;  */
-	height: 9vh;
-	margin-top: 10px; 
+	height: 6vh;
+	/* margin-top: 10px;  */
 	border: solid 5px red; 
 	
 }
@@ -100,7 +109,7 @@ footer{
 }
 
 .icone-social {
-	width: 50px;
+	width: 40px;
 	height: auto;
 	transition: transform 0.2s ease-in-out;
 }
@@ -117,16 +126,16 @@ footer{
 	color: aliceblue;
 	width: 100vw;
 	/* border: solid #FF00FF; */
-	font-size: 25px;
+	font-size: 15px;
 }
 
 
 .imagem_logo_rodape {
 
 	display: flex;
-	margin-top: 2px;
-	width: 10vw;
-	/* border: solid #FF00FF;  */
+	justify-content: center;
+	
+	/* border: solid #FF00FF;   */
 
 }
 
