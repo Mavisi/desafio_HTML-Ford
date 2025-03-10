@@ -74,9 +74,10 @@ form{
 .rodape p{
     color: white;
     text-align: center;
-    flex: 1; /* Faz o texto ocupar o espaço necessário */
+    /* flex: 1; Faz o texto ocupar o espaço necessário */
     display: flex;
     justify-content: center; /* Centraliza horizontalmente */
-
+    border: solid 5px blue;
+    padding: 0 0 0 0;
 }
 
