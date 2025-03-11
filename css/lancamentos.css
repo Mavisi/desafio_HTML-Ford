@@ -20,7 +20,7 @@ html,body{
     gap: 20px;
     align-items: center;
     height: 10vh;
-    border: solid green 5px;
+    /* border: solid green 5px; */
 
 }
 
@@ -61,7 +61,7 @@ html,body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: solid 5px orange  ;
+    /* border: solid 5px orange  ; */
     height: 130vh;
     margin-bottom: 150px;;
     
@@ -79,7 +79,7 @@ html,body{
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-    border: solid 5px red;
+    /* border: solid 5px red; */
     padding-bottom: 10px;
     margin-bottom:100px;
     
@@ -94,6 +94,11 @@ html,body{
     justify-content: center;
     align-items: center;
     margin-top: -30px;
+}
+
+input[type="checkbox"]:checked{
+    transform: scale(1.7);
+    accent-color: blue;
 }
 
 .imagem_table{
@@ -150,7 +155,7 @@ html,body{
     display: block;
     animation: fadeIn 0.3s ease-in-out;
     transform: translateX(-10%);
-    background-color: white
+    background-color: white;
     padding: 15px;
     border-radius: 10px;
 }
@@ -209,10 +214,15 @@ table, th, td{
     background-color: #1351d8;
     color: white;  
     cursor: pointer;
+    font-family: "emblema one",sans-serif;
+    
+    
 }
 
-.link_botao{
 
+
+.link_botao{
+    transition: transform 0.2s ease-in-out;
     padding: 0 0 0 0;
     text-decoration: none;
 
@@ -220,6 +230,9 @@ table, th, td{
 
 }
 
+.link_botao:hover{
+    transform: scale(1.2);
+}
 
 .rodape{
     display: flex;
