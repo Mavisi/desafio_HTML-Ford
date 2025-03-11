@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Emblema+One&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +10,7 @@ html,body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: "emblema one", sans-serif;  
 }
 .conteudo{
     flex: 1;
@@ -22,8 +25,9 @@ html,body{
 }
 
 .imagem_logo{
-    width: 10vw;
-    height: 9vh;
+    width: auto;
+    height: 6vh;
+    padding-left: 2%;
    
 }
 
@@ -33,12 +37,23 @@ html,body{
     gap: 20px;
     position: absolute;
     left: 50%;
+    top: 3.8%;
     transform: translateX(-50%);
 }
 
 .menu{
     text-decoration: none;
-    
+    font-size: 16px;
+    font-weight: 600;
+    transition: transform 0.3s ease-in-out, font-size 0.3s ease-in-out;   
+    color: #1351d8;
+   
+}
+
+.menu:hover{
+    transform: scale(1.1);
+    font-size: 20px;
+    color: #1b357e;
 }
 
 .meio{
@@ -48,13 +63,14 @@ html,body{
     align-items: center;
     border: solid 5px orange  ;
     height: 130vh;
+    margin-bottom: 150px;;
     
 }
 
 .video_main{
     width: 100%;
     height: 1500px;
-    border: solid 5px blue;
+    /* border: solid 5px blue; */
 }
 
 .carros_meio{
@@ -65,11 +81,8 @@ html,body{
     margin-top: 50px;
     border: solid 5px red;
     padding-bottom: 10px;
+    margin-bottom:100px;
     
-}
-
-.carros{
-    /* border: solid 5px blue; */
 }
 
 .carros_meio figure{
@@ -82,6 +95,93 @@ html,body{
     align-items: center;
     margin-top: -30px;
 }
+
+.imagem_table{
+    position: relative;
+    display: inline-block;
+}
+
+.tabela-hover{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px); /* Aplica um desfoque ao fundo */
+    padding: 15px;
+    border-radius: 10px;
+    border: solid 1px black;
+    padding: 30px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    z-index: 10;
+}
+
+.imagem_table:hover .tabela-hover{
+    display: block;
+}
+
+.imagem_table:hover .tabela-hover{
+    animation: fadeIn 0.3s ease-in-out;
+ }
+
+.imagem_table_storm{
+    position: relative;
+    display: inline-block;
+}
+
+.tabela-hover-storm{
+
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px); /* Aplica um desfoque ao fundo */
+    padding: 15px;
+    border-radius: 10px;
+    border: solid 1px black;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    z-index: 10;
+
+}
+
+.imagem_table_storm:hover .tabela-hover-storm{
+    display: block;
+    animation: fadeIn 0.3s ease-in-out;
+    transform: translateX(-10%);
+    background-color: white
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+table{
+    border-collapse: collapse;
+    width: 110%;
+    max-width: 600px;
+    height: auto;
+    margin-left: -9px;
+
+}
+
+table, th, td{
+    border: solid 1px black;
+}
+
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(0%) translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0%) translateY(0);
+    }
+}
+
 
 .carros_meio input[type="checkbox"]{
     margin-right: 10px;
@@ -96,17 +196,30 @@ html,body{
 }
 
 
-.botao{
+.botao{  /* FAZER UM HOVER */
+
     display: flex;
     justify-content: center;
     align-items: center;
     /* border: solid 5px blue; */
-    margin-top: 100px;
-    margin-bottom: 150px;
-    padding: 20px 20px 20px 20px;
-    border-radius: 20px;
-    background-color: #1351D8;
+    /* margin-top: 100px; */
+    /* margin-bottom: 150px; */
+    padding: 20px 60px 20px 60px;
+    border-radius: 10px;
+    background-color: #1351d8;
+    color: white;  
+    cursor: pointer;
 }
+
+.link_botao{
+
+    padding: 0 0 0 0;
+    text-decoration: none;
+
+    /* border: solid 5px black; */
+
+}
+
 
 .rodape{
     display: flex;
@@ -114,12 +227,20 @@ html,body{
     justify-content: space-between;
     align-items: center;
     height: 6vh;
+    
+    
 }
 
+.lancamento_rodape{
+    display: flex;
+    margin-left: 1%;
+
+}
 .menu_rodape{
     list-style: none;
     display: flex;
     align-items: center;
+    padding: 0 0 0 10px;
     color: white;
     gap: 5px;
 
@@ -142,6 +263,9 @@ html,body{
     color: white;
     align-items: center;
     gap: 20px;
-    border: solid 5px red;
+    /* border: solid 5px red; */
 }
 
+.lancamentos_logo{
+    padding-right: 2%;
+}

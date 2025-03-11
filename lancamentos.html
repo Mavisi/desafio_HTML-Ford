@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
     <meta charset="UTF-8">
@@ -10,78 +11,148 @@
 
 <body>
     <div class="conteudo">
-    <header class="cabecalho">
-        <img class="imagem_logo" src="img/logo-melhor.png.png" alt="logo ford"> 
-        <nav>
-            <ul class="menu_cabecalho">
-                <li><a class="menu" href="index.html"> Home </a></li>
-                <li><a class="menu" href="lancamentos.html"> Lançamentos </a></li>
-                <li><a class="menu" href="contato.html"> Contatos </a></li>
-             </ul>
-        </nav>
-    </header>    
-
-    <main class="meio"> 
-        <iframe class="video_main" src="https://www.youtube.com/embed/vQsryuNmsL0?si=EDMuLMhLuZiHTrWc"
-        title="YouTube video player" 
-        frameborder="0" allow="accelerometer; autoplay; 
-        clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-        <div class="carros_meio">
-            <figure>
-            <img class="carros" src="./img/XL Cabine.jpg" alt="ford ranger XL CABINE SIMPLES">
-            <figcaption> 
-              <input type="checkbox" id="xl-cabine"> 
-              <label for="xl-cabine"> XL CABINE SIMPLES </label>
-              <img class="info-carros" src="./img/info.png" alt="informações">
-            </figcaption>
-            <p>R$ 252.900,00</p>
-        </figure>
-            <figure>
-                <img class="carros" src="./img/xls 2.2 diesel.jpg" alt="ford ranger XLS 2.2 DIESEL">
-            <figcaption>
-                <input type ="checkbox" id="xls-ranger">
-                <label for="xls-ranger"> XLS RANGER </label>
-                <img class="info-carros" src="./img/info.png" alt="informações">
-            </figcaption>    
-            <p>R$ 279.900,00</p>
-           </figure>
-
-           <figure>
-            <img class="carros" src="./img/storm.jpg" alt="ford ranger STORM">
-            <figcaption>
-                <input type="checkbox" id="storm-ranger">
-                <label for="storm-ranger"> STORM RANGER </label>
-                <img class="info-carros" src="./img/info.png" alt="informações">
-            </figcaption>
-            <p>R$ 229.900,00</p>
-           </figure>           
-        </div>
-
-        <button class="botao"> Comprar Carros </button> 
-
-    </main>
-
-    <footer class="rodape">
-        <div class="lancamentos_rodape" >
+        <header class="cabecalho">
+            <img class="imagem_logo" src="img/logo-melhor.png.png" alt="logo ford">
             <nav>
-                <ul class="menu_rodape">
-                    <li><p>Redes Sociais</p></li>
-                    <li><a href="https://www.facebook.com/"> <img class="icone-social" src="./img/facebook-50.png"></a></li>
-                    <li><a href="https://www.facebook.com/"> <img class="icone-social" src="./img/instagram-logo-50.png"> </a></li>
-                    <li><a href="https://www.facebook.com/"> <img class="icone-social" src="./img/youtube-squared-50.png"></a></li>
+                <ul class="menu_cabecalho">
+                    <li><a class="menu" href="index.html"> Home </a></li>
+                    <li><a class="menu" href="lancamentos.html"> Lançamentos </a></li>
+                    <li><a class="menu" href="contato.html"> Contatos </a></li>
                 </ul>
             </nav>
-        </div>  
-        <p class="lancamentos_direitos"> &copy; 2025 Ford Motor Company - Todos os direitos reservados </p>
-        
-        <div class="lancamentos_logo">
-        <img src="./img/ford-96.png" alt="logo da ford" >
-       </div>
-    </footer>
+        </header>
 
-</div>
+        <main class="meio">
+            <iframe class="video_main" src="https://www.youtube.com/embed/vQsryuNmsL0?si=EDMuLMhLuZiHTrWc"
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+        clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <div class="carros_meio">
+                <figure>
+                    <img class="carros" src="./img/XL Cabine.jpg" alt="ford ranger XL CABINE SIMPLES">
+                    <figcaption>
+                        <input type="checkbox" id="xl-cabine">
+                        <label for="xl-cabine"> XL CABINE SIMPLES </label>
+                        <div class="imagem_table">
+                            <img class="info-carros" src="./img/info.png" alt="informações">
+                            <div class="tabela-hover">
+                                <table>
+                                    <tr>
+                                        <td>Motor</td>
+                                        <td>2.2 Duratorq</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Transmissão</td>
+                                        <td>Manual</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Portas</td>
+                                        <td>2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Cor</td>
+                                        <td>vermelha</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </figcaption>
+                    <p>R$ 252.900,00</p>
+                </figure>
+                <figure>
+                    <img class="carros" src="./img/xls 2.2 diesel.jpg" alt="ford ranger XLS 2.2 DIESEL">
+                    <figcaption>
+                        <input type="checkbox" id="xls-ranger">
+                        <label for="xls-ranger"> XLS RANGER </label>
+                        <div class="imagem_table">
+                            <img class="info-carros" src="./img/info.png" alt="informações">
+                            <div class="tabela-hover">
+                                <table>
+                                    <tr>
+                                        <td>Motor</td>
+                                        <td>2.2 Duratorq</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Transmissão</td>
+                                        <td>Automática</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Portas</td>
+                                        <td>4</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Cor</td>
+                                        <td>vermelha</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </figcaption>
+                    <p>R$ 279.900,00</p>
+                </figure>
+
+                <figure>
+                    <img class="carros" src="./img/storm.jpg" alt="ford ranger STORM">
+                    <figcaption>
+                        <input type="checkbox" id="storm-ranger">
+                        <label for="storm-ranger"> STORM RANGER </label>
+                        <div class="imagem_table_storm">
+                            <img class="info-carros" src="./img/info.png" alt="informações">
+                            <div class="tabela-hover-storm">
+                                <table>
+                                    <tr>
+                                        <td>Motor</td>
+                                        <td>3.2 Turbo CD (Diesel)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Transmissão</td>
+                                        <td>Automática (AT)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Portas</td>
+                                        <td>4</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Cor</td>
+                                        <td>vermelha</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </figcaption>
+                    <p>R$ 229.900,00</p>
+                </figure>
+            </div>
+
+            <a class="link_botao" href="https://www.ford.com.br/"> <button  class="botao" > Comprar Carros </button></a> 
+
+        </main>
+
+        <footer class="rodape">
+            <div class="lancamentos_rodape">
+                <nav>
+                    <ul class="menu_rodape">
+                        <li>
+                            <p>Redes Sociais</p>
+                        </li>
+                        <li><a href="https://www.facebook.com/"> <img class="icone-social"
+                                    src="./img/facebook-50.png"></a></li>
+                        <li><a href="https://www.facebook.com/"> <img class="icone-social"
+                                    src="./img/instagram-logo-50.png"> </a></li>
+                        <li><a href="https://www.facebook.com/"> <img class="icone-social"
+                                    src="./img/youtube-squared-50.png"></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <p class="lancamentos_direitos"> &copy; 2025 Ford Motor Company - Todos os direitos reservados </p>
+
+            <div class="lancamentos_logo">
+                <img src="./img/ford-96.png" alt="logo da ford">
+            </div>
+        </footer>
+
+    </div>
 </body>
 
 </html>

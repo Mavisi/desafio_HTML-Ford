@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Emblema+One&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +10,7 @@ html,body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: "emblema one", sans-serif;
 }
 .conteudo{
     flex:1;
@@ -17,7 +20,8 @@ html,body{
     align-items: center;
     justify-content: left;
     height: 10vh;
-    border: solid 5px black;
+    /* border: solid 5px black; */
+    padding-left: 2%;
 }
 
 .menu_contatos{
@@ -32,8 +36,18 @@ html,body{
 
 .contatos{
     text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    transition: transform 0.3s ease-in-out, font-size 0.3s ease-in-out;
+    color: #1351d8;
+
 }
 
+.contatos:hover{
+    transform: scale(1.1);
+    font-size: 20px;
+    color: #1b357e;
+}
 
 .meio_contatos{
     display: flex;
@@ -41,16 +55,17 @@ html,body{
     justify-content: center;
     align-items: center;
     height: 84vh;
-    border: solid 5px yellow;
+    /* border: solid 5px yellow; */
 }
 
 .lado_carro{
-    border: solid 5px red;
     width: 35vh;
+    margin-right: 4%;
 }
 
 .lado_formulario{
-    border: solid 5px blue; 
+    /* border: solid 5px blue;  */
+    gap: 20px;
 }
 .meio_contatos p{
     font-size: 20px;
@@ -102,7 +117,7 @@ button{
     font-size: 16px; /* Aumenta o tamanho do texto dentro do input */
     border: 1px solid #ccc;
     border-radius: 5px; /* Borda arredondada */
-    background-color: blue;
+    background-color: #1351d8;
     color: white;
     cursor: pointer;
 }
@@ -119,6 +134,7 @@ button{
     list-style: none;
     display: flex;
     align-items: center;
+    padding: 0 0 0 10px;
     color: white;
     /* gap: 5px; */
 
@@ -134,18 +150,16 @@ button{
     transform: scale(1.2);
 }
 
-
 .lancamentos_direitos{
     display: flex;
     justify-content: center;
     color: white;
     align-items: center;
     gap: 20px;
-    border: solid 5px red;
+    /* border: solid 5px red; */
 }
 
-.rodape img{
-    
-    margin-right: 15px;
-    
+.lancamentos_logo{
+    padding-right: 2%;
 }
+
