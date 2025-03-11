@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Emblema+One&display=swap');
+
 *{
 	margin: 0px;
 	padding: 0px;
@@ -8,11 +10,13 @@ html,body{
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
+	font-family: "emblema one", sans-serif;  
 }
 .conteudo{
 	flex: 1;
 }
 .elementos__cabecalho{
+
 display: flex;
 height: 10vh;
 border: solid 5px #32de84;
@@ -38,16 +42,19 @@ border: solid 5px #32de84;
 }
 
 .elementos_do_menu{
-	font-family: 'Montesarat', sans-serif;
-	font-size: 24px;
+	font-size: 16px;
 	font-weight: 600;
 	color: #1351d8;
 	text-decoration: none;
+	transition: transform 0.3s ease-in-out, font-size 0.3s ease-in-out;
+	color: #1351d8;
 
 }
 
 .elementos_do_menu:hover{
-	color: #32de84;
+	transform: scale(1.1); /* Aumenta 10% */
+    font-size: 20px; /* Aumenta um pouco o tamanho da fonte */
+	color: #1b357e;
 	
 }
 
@@ -94,7 +101,7 @@ footer{
     /* border: solid 5px #ff7f50;  */
 	height: 6vh;
 	/* margin-top: 10px;  */
-	border: solid 5px red; 
+	/* border: solid 5px red;  */
 	
 }
 
@@ -103,15 +110,18 @@ footer{
 	display: flex;
 	justify-content:left;
 	align-items: center;
+	gap: 5px;
 	width: 21vw;
+	padding: 0 0 0 10px;
 	color: azure;  /* aqui muda a cor que estiver no corpo da tag selecionada  */
-	/* border:solid 5px #00FF00; */
+	/* border:solid 5px #00FF00;  */
 }
 
 .icone-social {
 	width: 40px;
 	height: auto;
 	transition: transform 0.2s ease-in-out;
+	
 }
 
 .icone-social:hover{
@@ -141,7 +151,7 @@ footer{
 
 .elementos__rodape p{
 	font-size: 15px;
-	border:solid 5px #00CED1;
+	/* border:solid 5px #00CED1; */
 }
 
 
