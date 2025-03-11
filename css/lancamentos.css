@@ -93,6 +93,27 @@ html,body{
     margin-top: -30px;
 }
 
+.imagem_table{
+    position: relative;
+    display: inline-block;
+}
+
+.tabela-hover{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: solid 1px black;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    z-index: 10;
+}
+
+.imagem_table:hover .tabela-hover{
+    display: block;
+}
+
 .carros_meio input[type="checkbox"]{
     margin-right: 10px;
     
