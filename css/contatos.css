@@ -24,6 +24,11 @@ html,body{
     padding-left: 2%;
 }
 
+.imagem_logo{
+    width: auto;
+    height: 6vh;
+    padding-left: 2%;
+}
 .menu_contatos{
     list-style: none;
     display: flex;
