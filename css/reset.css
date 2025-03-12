@@ -16,10 +16,9 @@ html,body{
 	flex: 1;
 }
 .elementos__cabecalho{
-
-display: flex;
-height: 10vh;
-/* border: solid 5px #32de84; */
+	display: flex;
+	height: 10vh;
+	/* border: solid 5px #32de84; */
 
 }
 
@@ -29,12 +28,9 @@ height: 10vh;
 	padding-left: 2%;
 	width: auto;
     height: 8vh;
-
-
 }
 
 .menu{
-
 	list-style: none;
     display: flex;
 	gap: 20px;
@@ -51,14 +47,12 @@ height: 10vh;
 	text-decoration: none;
 	transition: transform 0.3s ease-in-out, font-size 0.3s ease-in-out;
 	color: #1351d8;
-
 }
 
 .elementos_do_menu:hover{
 	transform: scale(1.1); /* Aumenta 10% */
     font-size: 20px; /* Aumenta um pouco o tamanho da fonte */
 	color: #1b357e;
-	
 }
 
 
@@ -69,11 +63,9 @@ main{
 	align-items: center;
 	height: 84vh; /* para ocupar toda a altura da pagina */
 	/* border:solid 5px #1351d8 ;  para criar uma borda */
-
 }
 
 .elementos_meio{
-	
 	display: flex; /* ativa o flex box*/
 	flex-direction: column; /*  para fazer a orientação da dos elementos */
 	justify-content: center; /* centraliza horizontalmente */
@@ -84,20 +76,18 @@ main{
 }
 
 .elementos_meio img{
-	
 	width: 60vw; /* largura da imagem */
 	height: auto; /* altura da imagem */
 }
 
 .texto_embaixo_da_ranger{
-
 	text-align: center;
 	font-size: 24px;
-
+	text-decoration: none;
+	color: #1351d8;
 }
 
 footer{
-
 	display: flex;
 	flex-direction: row;
 	background-color: #1b357e;
@@ -105,11 +95,9 @@ footer{
 	height: 6vh;
 	/* margin-top: 10px;  */
 	/* border: solid 5px red;  */
-	
 }
 
 .elementos__rodape{
-
 	display: flex;
 	justify-content:left;
 	align-items: center;
@@ -124,7 +112,6 @@ footer{
 	width: 40px;
 	height: auto;
 	transition: transform 0.2s ease-in-out;
-	
 }
 
 .icone-social:hover{
@@ -144,12 +131,9 @@ footer{
 
 
 .imagem_logo_rodape {
-
 	display: flex;
 	justify-content: center;
-	
-	/* border: solid #FF00FF;   */
-
+    /* border: solid #FF00FF;   */
 }
 
 .elementos__rodape p{
