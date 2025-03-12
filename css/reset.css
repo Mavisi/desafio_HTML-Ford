@@ -158,3 +158,42 @@ footer{
 }
 
 
+@media (max-width: 768px) {
+    .elementos__cabecalho {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .elementos_do_menu {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .texto_embaixo_da_ranger {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .elementos__rodape {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .icone-social {
+        width: 40px; /* Mantém os ícones legíveis */
+    }
+
+    .direitos_autorais {
+        font-size: 14px;
+    }
+}

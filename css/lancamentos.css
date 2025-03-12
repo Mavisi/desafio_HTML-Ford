@@ -135,20 +135,17 @@ input[type="checkbox"]:checked{
 }
 
 .tabela-hover-storm{
-
     display: none;
     position: absolute;
     top: 100%;
     left: 0;
     background-color: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(5px); /* Aplica um desfoque ao fundo */
-    padding: 15px;
+    backdrop-filter: blur(5px);
     border-radius: 10px;
     border: solid 1px black;
     padding: 20px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     z-index: 10;
-
 }
 
 .imagem_table_storm:hover .tabela-hover-storm{
@@ -156,18 +153,17 @@ input[type="checkbox"]:checked{
     animation: fadeIn 0.3s ease-in-out;
     transform: translateX(-10%);
     background-color: white;
-    padding: 15px;
+    padding-right: 10px;
     border-radius: 10px;
 }
 
-
 table{
     border-collapse: collapse;
-    width: 110%;
+    width: 100%;
     max-width: 600px;
     height: auto;
     margin-left: -9px;
-
+    
 }
 
 table, th, td{
