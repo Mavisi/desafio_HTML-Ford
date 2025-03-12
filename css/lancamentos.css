@@ -21,14 +21,16 @@ html,body{
     align-items: center;
     height: 10vh;
     /* border: solid green 5px; */
-
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    border-bottom: solid 5px;
+    border-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%) 1;
+    
 }
 
 .imagem_logo{
     width: auto;
     height: 6vh;
     padding-left: 2%;
-   
 }
 
 .menu_cabecalho{
@@ -73,6 +75,7 @@ html,body{
     width: 80%;
     height: 50%;
     /* border: solid 5px #1351d8  */
+    font-weight: 100;
 }
 
 .video p{
@@ -221,7 +224,7 @@ table, th, td{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: solid 5px blue; */
+    
     /* margin-top: 100px; */
     /* margin-bottom: 150px; */
     padding: 20px 60px 20px 60px;
@@ -238,7 +241,8 @@ table, th, td{
     transition: transform 0.2s ease-in-out;
     padding: 0 0 0 0;
     text-decoration: none;
-
+    /* border: solid 5px blue;  */
+    margin-top: 5%;
     /* border: solid 5px black; */
 
 }
