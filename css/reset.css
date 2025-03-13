@@ -106,7 +106,7 @@ footer{
 	justify-content:left;
 	align-items: center;
 	gap: 5px;
-	width: 21vw;
+	width: 21vw ;
 	padding: 0 0 0 10px;
 	color: azure;  /* aqui muda a cor que estiver no corpo da tag selecionada  */
 	/* border:solid 5px #00FF00;  */
