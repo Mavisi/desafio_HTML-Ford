@@ -65,7 +65,7 @@ html,body{
     align-items: center;
     /* border: solid 5px orange;  */
     height: 130vh;
-    margin-bottom: 150px;;
+    margin-bottom: 150px;
     
 }
 .video{
@@ -76,6 +76,7 @@ html,body{
     height: 50%;
     /* border: solid 5px #1351d8  */
     font-weight: 100;
+    gap: 2%;
 }
 
 .video p{
@@ -92,13 +93,14 @@ html,body{
 
 .carros_meio{
     display: flex;
-    gap: 20%;
+    gap: 15%;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
     /* border: solid 5px red; */
     padding-bottom: 10px;
     margin-bottom:20px;
+    
     
 }
 
@@ -141,6 +143,7 @@ input[type="checkbox"]:checked{
     padding: 30px;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
     z-index: 10;
+    
 }
 
 .imagem_table:hover .tabela-hover{
@@ -185,6 +188,7 @@ table{
     max-width: 600px;
     height: auto;
     margin-left: -9px;
+   
     
 }
 
@@ -298,4 +302,248 @@ table, th, td{
 
 .lancamentos_logo{
     padding-right: 2%;
+}
+
+
+@media(min-width:768px) and (max-width:834px) {
+    .cabecalho{
+        align-items: center;
+        height: 9vh;
+        /* border: solid green 5px; */
+        background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+        border-bottom: solid 5px;
+        border-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%) 1;
+    }
+
+    
+    .menu_cabecalho{
+        display: flex; 
+        list-style: none;
+        gap: 20px;
+        left: 55%;
+        top: 3%;
+        
+    }
+    .menu{
+        text-decoration: none;
+        font-size: 0.9rem;
+        font-weight: 600;
+        transition: transform 0.3s ease-in-out, font-size 0.3s ease-in-out;   
+        color: #1351d8;
+       
+    }
+
+    .meio{
+        margin-bottom: 34%;
+    }
+
+    .video{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        gap:0.6rem ; 
+        border: solid 5px #1351d8  ;
+        font-weight: 100;
+        margin-top: 24%;
+    }
+
+    .video p{
+        height: auto ;
+        width: 30rem ;
+        text-align: justify;
+        padding-right: 1%;
+        margin-bottom: 5%;
+    }
+
+    .video_main{
+        width: 35rem;
+        padding-bottom: 5%;
+        
+    }
+    .carros_meio{
+        display: flex;
+        flex-direction: column;
+        gap: 20%;
+        justify-content: center;
+        align-items: center;
+        border: solid 5px red;
+        margin-top: 5%;
+        /* padding-bottom: 10px; */
+        margin-bottom:2%;
+        
+    }
+
+}
+
+@media(min-width:360px) and (max-width:440px){
+    .imagem_logo{
+    width: 7rem;
+    }
+    .menu_cabecalho{
+        left: 14.9rem;
+        
+    }
+    .menu{
+        text-decoration: none;
+        font-size: 0.7rem;
+        font-weight: 600;
+        transition: transform 0.3s ease-in-out, font-size 0.3s ease-in-out;   
+        color: #1351d8;
+       
+    }
+    .meio{
+        height: 30%;
+        font-size: 0.6rem;
+        /* border: solid 5px black; */
+        margin-bottom: 5%;
+    }
+    .video{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 60%;
+        width: 18rem;
+        gap:0.6rem ; 
+        /* border: solid 5px #1351d8  ; */
+        font-weight: 100;
+        margin-top: 24%;
+    }
+    .video p{
+        height: auto ;
+        width: 18rem ;
+        text-align: justify;
+        padding-right: 1%;
+        margin-bottom: 5%;
+    }
+
+    .video_main{
+        width: 18rem;
+        height: 14rem;
+        padding-bottom: 5%;
+        
+    }
+    .carros_meio{
+        display: flex;
+        flex-direction: column;
+        gap: 20%;
+        justify-content: center;
+        align-items: center;
+        /* border: solid 5px red; */
+        width: 17rem;
+        margin-top: 5%;
+        /* padding-bottom: 10px; */
+        /* margin-bottom:2%; */
+        
+    }
+
+    figure img{
+        width: 16rem;
+    }
+
+    .rodape{
+        display: flex;
+        background-color: #1b357e;
+        justify-content: space-between;
+        align-items: center;
+        height: 10vh;
+        /* margin-bottom: 0; */
+        font-size: 0.7rem;
+    }
+    .icone-social{
+        width: 1.4rem;
+    }
+    .lancamentos_logo{
+        width: 1.7rem;
+        margin-right: 4.5rem;
+    }
+}
+
+
+@media(min-width:320px) and (max-width:359px){
+
+    .imagem_logo{
+        width: 6rem;
+    }
+    .menu_cabecalho{
+        left: 13rem;
+        top: 0.6rem;
+    }
+
+    .menu{
+        text-decoration: none;
+        font-size: 0.67rem;
+        font-weight: 600;
+        transition: transform 0.3s ease-in-out, font-size 0.3s ease-in-out;   
+        color: #1351d8;
+       
+    }
+    .meio{
+        height: 30%;
+        font-size: 0.6rem;
+        /* border: solid 5px black; */
+        margin-bottom: 5%;
+    }
+    .video{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 60%;
+        width: 18rem;
+        gap:0.6rem ; 
+        /* border: solid 5px #1351d8  ; */
+        font-weight: 100;
+        margin-top: 24%;
+    }
+    .video p{
+        height: auto ;
+        width: 18rem ;
+        text-align: justify;
+        padding-right: 1%;
+        margin-bottom: 5%;
+    }
+
+    .video_main{
+        width: 18rem;
+        height: 14rem;
+        padding-bottom: 5%;
+        
+    }
+    .carros_meio{
+        display: flex;
+        flex-direction: column;
+        gap: 20%;
+        justify-content: center;
+        align-items: center;
+        /* border: solid 5px red; */
+        width: 17rem;
+        margin-top: 5%;
+        /* padding-bottom: 10px; */
+        /* margin-bottom:2%; */
+        
+    }
+
+    figure img{
+        width: 16rem;
+    }
+
+    .rodape{
+        display: flex;
+        background-color: #1b357e;
+        justify-content: space-between;
+        align-items: center;
+        height: 10vh;
+        /* margin-bottom: 0; */
+        font-size: 0.7rem;
+    }
+    .icone-social{
+        width: 1.4rem;
+    }
+    .lancamentos_logo{
+        width: 1.7rem;
+        margin-right: 4.5rem;
+    }
 }
