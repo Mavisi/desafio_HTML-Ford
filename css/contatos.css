@@ -289,47 +289,23 @@ button{
     }
 }
 
-@media(min-width: 360px) and (max-width:767px) {
+@media(min-width: 427px) and (max-width:767px) {
     
-    .meio_contatos{
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html,body{
+        min-height: 100vh;
         display: flex;
         flex-direction: column;
-        height: 20rem;
-        width: 23rem; 
-        border: solid 5px red;
-        left: 50%;
+        font-family: "emblema one", sans-serif;
+        /* border: solid 5px blue; */
     }
-    .lado_formulario{
-        height: 19rem;
-        width: 23.6rem;
-        margin-left: 4%;
-        border: solid 5px green;
-                
-    }
-    .formulario{
-        height: 3rem;
-        width: 22.5rem;
-    }
-    form{
-    
-        width: 22rem;
-        border: solid 5px blue;
-
-    }
-    input{
-        height: 2rem;
-        width: 20rem;
-    }
-    #tipo_de_contato{
-        height: 2rem;
-        width: 20rem;
-    }
-    #mensagem{
-        height: 4rem;
-        width: 20rem;
-    }
-    figure img{
-        height: 3rem;
+    .conteudo{
+        flex: 1;
     }
     .cabecalho_contatos{
         height: 9vh;
@@ -337,12 +313,156 @@ button{
         flex-direction: column;
     }
 
-    .rodape{
-        height: 9vh;
-        display: flex;
-       
+    .menu_contatos{
+        margin-top: 1.5%;
     }
 
+    .meio_contatos{
+        display: flex;
+        flex-direction: column;
+        /* height: 75vh; */
+        /* border: solid 5px green; */
+        /* margin-bottom: 7%; */
+        flex:1;
+    }
+    
+    .lado_formulario{
+        display: flex;
+        flex-direction: column;
+        height: 83vh;
+        /* border: solid 5px red; */
 
+    }
 
+    .lado_formulario img{
+        height: 20vh;
+        width: auto;
+        
+    }
+    .sobre{
+        text-align: center;
+    }
+    .lado_formulario form{
+        height: 40vh;
+    }
+
+    button{
+    width: 100%;
+    max-width: 400px;
+    height: 50px; /* Define a altura do campo */
+    margin-top: 2vh;
+    padding: 10px; /* Espaçamento interno para melhor visualização */
+    font-size: 16px; /* Aumenta o tamanho do texto dentro do input */
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Borda arredondada */
+    background-color: #1351d8;
+    color: white;
+    cursor: pointer;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+    }
+    .rodape{
+        height: 8vh;
+        display: flex;
+        /* border: solid 5PX red; */
+    }
+    .menu_rodape{
+    font-size: 14px;
+    }
+    .icone-social{
+        width: 1.4rem;
+        height: auto;
+        transition: transform 0.2s ease-in-out;
+    }
 }
+
+@media(min-width: 320px) and (max-width:426px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html,body{
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        font-family: "emblema one", sans-serif;
+        /* border: solid 5px blue; */
+    }
+    .conteudo{
+        flex: 1;
+    }
+    .cabecalho_contatos{
+        height: 9vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu_contatos{
+        margin-top: 1.5%;
+    }
+
+    .meio_contatos{
+        display: flex;
+        flex-direction: column;
+        /* height: 75vh; */
+        /* border: solid 5px green; */
+        /* margin-bottom: 7%; */
+        flex:1;
+    }
+    
+    .lado_formulario{
+        width: 100%;
+
+    }
+
+    .lado_formulario img{
+        height: 10vh;
+        width: auto;
+        
+    }
+    .sobre{
+        text-align: center;
+    }
+    .lado_formulario form{
+        max-width: 100%;
+    }
+    input{
+        max-width: 100%;
+    }
+
+    #tipo_de_contato{
+        max-width: 100%;
+    }
+    button{
+    width: 100%;
+    max-width: 400px;
+    height: 50px; /* Define a altura do campo */
+    margin-top: 2vh;
+    padding: 10px; /* Espaçamento interno para melhor visualização */
+    font-size: 16px; /* Aumenta o tamanho do texto dentro do input */
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Borda arredondada */
+    background-color: #1351d8;
+    color: white;
+    cursor: pointer;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+    }
+    .rodape{
+        height: 8vh;
+        display: flex;
+        /* border: solid 5PX red; */
+    }
+    .menu_rodape{
+    font-size: 14px;
+    }
+    .icone-social{
+        width: 1.4rem;
+        height: auto;
+        transition: transform 0.2s ease-in-out;
+    }
+}
+
